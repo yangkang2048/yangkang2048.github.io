@@ -24,13 +24,13 @@ repository               : "yangkang2048/yangkang2048.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "Kang Yang (杨糠)"
+  # pronouns         : # example: "she/her"  
+  # bio              : "Short biography for the left-hand sidebar"
+  location         : "Beijing China"
+  employer         : "State Key Laboratory of Cryptology"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "yangk@sklc.org" 
 
   # Academic websites
   academia         : # URL
