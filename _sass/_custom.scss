@@ -1,0 +1,19 @@
+/* 经历列表容器 */
+.experience-list {
+  margin: 1.5em 0;
+}
+
+/* 单条经历项：flex 布局实现两栏 */
+.experience-item {
+  display: flex;
+  margin-bottom: 1.2em;
+  line-height: 1.6;
+}
+
+/* 左栏：时间列（固定宽度，右对齐） */
+.experience-date {
+  flex: 0 0 280px; /* 调整宽度适配你的时间格式 */
+  text-align: left;
+  font-weight: 500;
+  color: #333;
+}
