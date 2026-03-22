@@ -70,6 +70,31 @@ B.S. in Information and Computing Science
 }
 </style>
 
+# Publications
+
+The following is an overview of the top (or rank A) conferences and journals for my papers that have been published or accepted. See the publications section for details.
+
+- Journal of Cryptology (2024, 2025)
+
+- CRYPTO (2025)
+<br>
+EUROCRYPT (two papers in 2023, 2024, 2025, two papers in 2026) 
+<br>
+ASIACRYPT (2022, 2025)
+
+- ACM CCS (2016, two papers in 2020, 2021, 2022, 2024, 2025)
+<br>
+IEEE S&P (2021, two papers in 2024, 2026)
+<br>
+USENIX Security (2021, 2024, 2025, 2026)
+<br>
+NDSS (2020)
+
+- NeurIPS (2024), ICML (2025), MICRO (2025)
+
+- PKC (2020, 2024, 2025, 2026)
+
+- IEEE TIFS (2021, 2023, 2025), IEEE TDSC (2025)
 
 # Tool
 
@@ -78,3 +103,4 @@ Estimator for LPN problems: [LPNEstimator](https://lpnestimator.com/)
 # Students and post-docs
 
 I have the bandwidth to take on new postdocs or PhD students. If you are interesting on the cryptography research, you can always contact me to inquiry about opportunities of postdocs or PhD students by sending emails to [yangk@sklc.org](mailto:yangk@sklc.org) or [kangyang2048@gmail.com](mailto:kangyang2048@gmail.com). 
+
