@@ -21,7 +21,7 @@ Ph.D. in Computer Application Technology
 <br>
 B.S. in Information and Computing Science
 
-# Employment history
+# Work experience
 
 <div class="cv-item">
   <div class="cv-row">
@@ -72,7 +72,7 @@ B.S. in Information and Computing Science
 
 # Publications
 
-The following is an overview of the top (or rank A) conferences and journals for my papers that have been published or accepted. See the publications section for details.
+The following is an overview of the top (or rank A) conferences and journals for my papers that have been published or accepted. See the publications section for details and more papers.
 
 - Journal of Cryptology (2024, 2025)
 

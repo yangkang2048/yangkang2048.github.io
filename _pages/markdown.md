@@ -1,6 +1,6 @@
 ---
 permalink: /markdown/
-title: "Markdown"
+title: "Service"
 author_profile: true
 redirect_from: 
   - /md/
@@ -9,41 +9,35 @@ redirect_from:
 
 {% include toc %}
 
-## Locations of key files/directories
+## Program committee member
 
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
-* Single pages: _pages/
-* Collections of pages are .md or .html files in:
-  * _publications/
-  * _portfolio/
-  * _posts/
-  * _teaching/
-  * _talks/
-* Footer: _includes/footer.html
-* Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
+* ACM CCS (2024, 2025, 2026)
+* USENIX Security (2026)
+* ASIACRYPT (2023)
+* ESORICS (2020, 2021, 2022)
+* CT-RSA (2023)
+* ICICS (2022, 2025)
 
-## Tips and hints
+## External reviewers
 
-* Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
-* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version GitHub built with Jekyll. 
-  * Green check: successful build
-  * Orange circle: building
-  * Red X: error
-  * No icon: not built
+* CRYPTO (2020, 2021, 2022, 2023, 2025, 2026)
+* EUROCRYPT (2020, 2021, 2026) 
+* ASIACRYPT (2018, 2020, 2021, 2022, 2024, 2025) 
+* ACM CCS (2021, 2022, 2023)
+* USENIX Security (2024)
+* PKC (2018, 2019, 2024, 2025, 2026)
+* TCC (2019, 2022)
+* ESORICS (2019)
+* CT-RSA (2018)
+* Inscrypt (2021)
+* CANS (2017)
+* ACISP (2018)
+* AsiaCCS (2020)
+* IEEE Transactions on Services Computing (2019)
+* IEEE Transactions on Dependable and Secure Computing (2018, 2023, 2024)
+* IEEE Transactions on Information Forensics & Security (2024)
 
-* Academic Pages uses [Jekyll Kramdown](https://jekyllrb.com/docs/configuration/markdown/), GitHub Flavored Markdown (GFM) parser, which is similar to the version of Markdown used on GitHub, but may have some minor differences. 
-  * Some of emoji supported on GitHub should be supposed via the [Jemoji](https://github.com/jekyll/jemoji) plugin :computer:.
-  * The best list of the supported emoji can be found in the [Emojis for Jekyll via Jemoji](https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#computer) blog post.
-
-* While GitHub Pages prevents server side code from running, client-side scripts are supported.
-  * This means that Google Analytics is supported, and [the wiki](https://github.com/academicpages/academicpages.github.io/wiki/Adding-Google-Analytics) should contain the most up-to-date information on getting it working.
-
-* Your CV can be written using either Markdown ([preview](https://academicpages.github.io/cv/)) or generated via JSON ([preview](https://academicpages.github.io/cv-json/)) and the layouts are slightly different. You can update the path to the one being used in `_data/navigation.yml` with the JSON formatted CV being hidden by default.
-
- * The [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/) is a useful guide for those that want to add functionality to the template or to become contributors to the [template on GitHub](https://github.com/academicpages/academicpages.github.io).
-
+<!--
 ## MathJax 
 
 Support for MathJax (version 3.* via [jsDelivr](https://www.jsdelivr.com/), [documentation](https://docs.mathjax.org/en/latest/)) is included in the template:
@@ -63,35 +57,9 @@ The default delimiters of `$$...$$` and `\\[...\\]` are supported for displayed 
 
 ## Mermaid diagrams
 Academic Pages includes support for [Mermaid diagrams](https://mermaid.js.org/) (version 11.* via [jsDelivr](https://www.jsdelivr.com/)) and in addition to their [tutorials](https://mermaid.js.org/ecosystem/tutorials.html) and [GitHub documentation](https://github.com/mermaid-js/mermaid) the basic syntax is as follows:
+-->
 
-```markdown
-    ```mermaid
-    graph LR
-    A-->B
-    ```
-```
-
-Which produces the following plot with the [default theme](https://mermaid.js.org/config/theming.html) applied:
-
-```mermaid
-graph LR
-A-->B
-```
-
-While a more advanced plot with the `forest` theme applied looks like the following:
-
-```mermaid
----
-config:
-  theme: 'forest'
----
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
+<!--
 ## Plotly
 Academic Pages includes support for Plotly diagrams via a hook in the Markdown code elements, although those that are comfortable with HTML and JavaScript can also access it [via those routes](https://plotly.com/javascript/getting-started/). Plotly is included via an `npm` [package](https://www.npmjs.com/package/plotly.js?activeTab=readme) and is distributed as part of the minimized JavaScript that is part of the template.
 
@@ -454,3 +422,4 @@ This allows you to denote <var>variables</var>.
 
 The footnotes in the page will be returned following this line, return to the section on <a href="#footnotes">Markdown Footnotes</a>.
 
+-->
