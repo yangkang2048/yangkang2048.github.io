@@ -102,5 +102,5 @@ Estimator for LPN problems: [LPNEstimator](https://lpnestimator.com/)
 
 # Students and post-docs
 
-I have the bandwidth to take on new postdocs or PhD students. If you are interesting on the cryptography research, you can always contact me to inquiry about opportunities of postdocs or PhD students by sending emails to [yangk@sklc.org](mailto:yangk@sklc.org) or [kangyang2048@gmail.com](mailto:kangyang2048@gmail.com). 
+I have the bandwidth to take on new postdocs or PhD students. If you are interesting on the cryptography research, you can contact me to inquiry about opportunities of postdocs or PhD students by sending emails to [yangk@sklc.org](mailto:yangk@sklc.org) or [kangyang2048@gmail.com](mailto:kangyang2048@gmail.com). 
 

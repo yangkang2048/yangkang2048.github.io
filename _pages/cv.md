@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+I am a professor at State Key Laboratory of Cryptology (SKLC), Beijing, China. My research interests focus on cryptography, particularly in secure multi-party computation (MPC), zero-knowledge proofs, fully homomorphic encryption (FHE), post-quantum cryptography (PQC), and threshold cryptography. I am also interesting in the applications of these cryptographic techniques, such as privacy-preserving machine learning (PPML), secure database, and blockchain.  
+
 {% include base_path %}
 
 Education
