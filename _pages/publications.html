@@ -1,36 +1,47 @@
 ---
 layout: archive
-title: "Publications"
+title: "Selected Publications"
 permalink: /publications/
 author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="https://scholar.google.com/citations?user=bQEYlhsAAAAJ&hl=zh-CN" target="_blank">my Google Scholar profile</a> or <a href="https://dblp.uni-trier.de/pid/86/8501-2.html" target="_blank">my DBLP</a></div>
+  <div class="wordwrap">The following is a list of selected papers. You can find a full list of publications on <a href="https://scholar.google.com/citations?user=bQEYlhsAAAAJ&hl=zh-CN" target="_blank">my Google Scholar profile</a> or <a href="https://dblp.uni-trier.de/pid/86/8501-2.html" target="_blank">my DBLP.</a></div>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<!-- 固定顺序：会议 → 期刊 → Preprints -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+  <!-- 强制顺序输出，不循环，避免重复 -->
 {% endif %}
+
+<!-- 1. 会议论文 -->
+<h2>Conference Papers</h2><hr />
+{% for post in site.publications reversed %}
+  {% if post.category == "conferences" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<!-- 2. 期刊论文 -->
+<h2>Journal Articles</h2><hr />
+{% for post in site.publications reversed %}
+  {% if post.category == "manuscripts" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<!-- 3. 预印本 -->
+<h2>Preprints</h2><hr />
+{% for post in site.publications reversed %}
+  {% if post.category == "preprints" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+
+
 
 
 

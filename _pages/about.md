@@ -70,9 +70,9 @@ B.S. in Information and Computing Science
 }
 </style>
 
-# Publications
+# Selected Publications
 
-The following is an overview of the top (or rank A) conferences and journals for my papers that have been published or accepted. See the publications section for details and more papers.
+The following is an overview of the top (or rank A) conferences and journals for my papers that have been published or accepted. See the publications section for details.
 
 - Journal of Cryptology (2024, 2025)
 
@@ -96,6 +96,10 @@ NDSS (2020)
 
 - IEEE TIFS (2021, 2023, 2025), IEEE TDSC (2025)
 
+<!--
+The result by Zhenfeng Zhang, Kang Yang, Xuexian Hu and Yuchen Wang in ACM CCS 2016 has been inclued in the ISO/IEC 20009-4 standard draft. The result by Kang Yang, Chenkai Weng, Xiao Lan, Jiang Zhang and Xiao Wang in ACM CCS 2020 is the process of being standardized in the ISO/IEC 25330-3, which is 
+-->
+
 # Tool
 
 Estimator for LPN problems: [LPNEstimator](https://lpnestimator.com/)
@@ -104,3 +108,4 @@ Estimator for LPN problems: [LPNEstimator](https://lpnestimator.com/)
 
 I have the bandwidth to take on new postdocs or PhD students. If you are interesting on the cryptography research, you can contact me to inquiry about opportunities of postdocs or PhD students by sending emails to [yangk@sklc.org](mailto:yangk@sklc.org) or [kangyang2048@gmail.com](mailto:kangyang2048@gmail.com). 
 
+I recommand [MPCSurvey](https://sands.edpsciences.org/articles/sands/full_html/2022/01/sands20210001/sands20210001.html) (an MPC survey) as a starting point on the research of MPC. 
