@@ -12,17 +12,18 @@ redirect_from:
 ## Program committee member
 
 * ACM CCS (2024, 2025, 2026)
-* USENIX Security (2026)
+* USENIX Security (2026, 2027)
 * ASIACRYPT (2023)
 * ESORICS (2020, 2021, 2022)
 * CT-RSA (2023)
+* ACNS (2027)
 * ICICS (2022, 2025)
 
 ## External reviewers
 
 * CRYPTO (2020, 2021, 2022, 2023, 2025, 2026)
 * EUROCRYPT (2020, 2021, 2026) 
-* ASIACRYPT (2018, 2020, 2021, 2022, 2024, 2025) 
+* ASIACRYPT (2018, 2020, 2021, 2022, 2024, 2025, 2026) 
 * ACM CCS (2021, 2022, 2023)
 * USENIX Security (2024)
 * PKC (2018, 2019, 2024, 2025, 2026)
@@ -34,7 +35,7 @@ redirect_from:
 * ACISP (2018)
 * AsiaCCS (2020)
 * IEEE Transactions on Services Computing (2019)
-* IEEE Transactions on Dependable and Secure Computing (2018, 2023, 2024)
+* IEEE Transactions on Dependable and Secure Computing (2018, 2023, 2024, 2026)
 * IEEE Transactions on Information Forensics & Security (2024)
 
 <!--
